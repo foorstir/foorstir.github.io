@@ -10,3 +10,13 @@ box-sizing: border-box;
     color: #fff;
     position: relative;
 }
+nav {
+    display: flex;
+    align-items: center;
+    padding: auto;
+}
+nav .Bageutte{
+    width: 100px;
+    margin-right: 80px;
+    cursor: pointer;
+}
