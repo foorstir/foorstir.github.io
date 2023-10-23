@@ -76,7 +76,7 @@ body {
   width: 2px;
   height: 24px;
   background-color: #fff;
-  top: 8px;
+  top: 15px;
 }
 
 .back-button button::before {
@@ -87,6 +87,32 @@ body {
 .back-button button::after {
   transform: rotate(-45deg);
   left: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #4C3575; 
+}
+
+.home-header {
+  font-size: 30px; 
+  color: #fff; 
+  margin:10px 10px; 
+}
+
+.projects-header {
+  font-size: 30px; 
+  color: #fff; 
+  margin:10px 10px; 
+}
+
+.about-header {
+  font-size: 30px; 
+  color: #fff; 
+  margin:10px 10px; 
 }
 
 
