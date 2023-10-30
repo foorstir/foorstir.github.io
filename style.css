@@ -29,6 +29,7 @@ body {
   align-items: center;
 }
 
+
 /*profile picture*/
 .baguette {
   margin: 10px;
@@ -64,8 +65,8 @@ body {
 /*Back Button*/
 .back-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 17px;
+  right: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +154,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .homecoso2 {
