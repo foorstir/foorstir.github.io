@@ -4,12 +4,16 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Heebo', sans-serif;
+@font-face {
+  font-family: 'Heebo';
   src: url('../../font/Heebo-Regular.woff2') format('woff2'),
-    url('../../font/Heebo-Regular.woff') format('woff');
+       url('../../font/Heebo-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
   font-display: swap;
   background-color: #371B58;
 }
@@ -171,4 +175,3 @@ body {
   color: #fff;
   font-size: 30px;
 }
-
